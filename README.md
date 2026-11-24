@@ -49,6 +49,9 @@ See [use cases and failure modes](docs/USE_CASES.md).
 4. Exchange signed versioned checkpoints through `recovery/queryCut`; detect stale
    state, conflicts, missing peers, and missing predecessor receipts.
 5. Preserve downstream plans on re-drive. Quarantine unguarded changed-action replay.
+6. On upstream abort, send `recovery/compensate`: each hop undoes its own committed
+   effects from its own signed receipts, downstream first, and returns signed
+   compensation receipts (see D38).
 
 | Evidence | Decision |
 |---|---|

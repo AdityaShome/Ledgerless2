@@ -13,7 +13,14 @@ from a2a.types import AgentExtension
 from google.protobuf import json_format
 from google.protobuf.struct_pb2 import Struct
 
-from recovery.rpc import METHOD, METHOD_CUT, handle_cut_request, handle_resolve_request
+from recovery.rpc import (
+    METHOD,
+    METHOD_COMPENSATE,
+    METHOD_CUT,
+    handle_compensate_request,
+    handle_cut_request,
+    handle_resolve_request,
+)
 from recovery.service import RecoveryService
 
 X_RECOVERY = "x-recovery"
@@ -74,9 +81,11 @@ def card_public_key(card: Any) -> str | None:
 class RecoveryASGI:
     """Answer recovery/resolveIntent; pass everything else to the wrapped app unchanged."""
 
-    def __init__(self, app, service: RecoveryService):
+    def __init__(self, app, service: RecoveryService, compensator=None):
         self.app = app
         self.service = service
+        # async (chain_id) -> report; without one, recovery/compensate is not served.
+        self.compensator = compensator
 
     async def __call__(self, scope, receive, send):
         if scope["type"] != "http" or scope["method"] != "POST":
@@ -92,14 +101,20 @@ class RecoveryASGI:
         body = None
         try:
             parsed = json.loads(raw)
-            if isinstance(parsed, dict) and parsed.get("method") in (METHOD, METHOD_CUT):
+            served = (METHOD, METHOD_CUT) + ((METHOD_COMPENSATE,) if self.compensator else ())
+            if isinstance(parsed, dict) and parsed.get("method") in served:
                 body = parsed
         except ValueError:
             pass
 
         if body is not None:
-            handler = handle_cut_request if body["method"] == METHOD_CUT else handle_resolve_request
-            out = json.dumps(handler(self.service, body)).encode()
+            if body["method"] == METHOD_COMPENSATE:
+                answer = await handle_compensate_request(self.compensator, body)
+            elif body["method"] == METHOD_CUT:
+                answer = handle_cut_request(self.service, body)
+            else:
+                answer = handle_resolve_request(self.service, body)
+            out = json.dumps(answer).encode()
             await send(
                 {
                     "type": "http.response.start",

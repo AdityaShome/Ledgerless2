@@ -159,6 +159,15 @@ class Store:
         ).fetchone()
         return Intent.from_dict(json.loads(row[0])) if row else None
 
+    def unresolved_intents(self, chain_id) -> list[Intent]:
+        """Intents declared for this chain that have no receipt (effect may have run)."""
+        rows = self.db.execute(
+            "SELECT i.body FROM intents i LEFT JOIN receipts r ON i.intent_id=r.intent_id "
+            "WHERE i.chain_id=? AND r.intent_id IS NULL ORDER BY i.version",
+            (chain_id,),
+        ).fetchall()
+        return [Intent.from_dict(json.loads(b)) for (b,) in rows]
+
     def get_intent(self, intent_id: str) -> Intent | None:
         row = self.db.execute("SELECT body FROM intents WHERE intent_id=?", (intent_id,)).fetchone()
         return Intent.from_dict(json.loads(row[0])) if row else None

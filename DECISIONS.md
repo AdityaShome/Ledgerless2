@@ -55,3 +55,15 @@
 - D37: The dashboard executes deterministic synthetic agents over real local A2A
   HTTP, not a shared LLM token context. Initial guidelines are shown to every agent;
   privacy-sensitive production enrollment and access control remain outside scope.
+- D38: COMPENSATE now runs in the real A2A path, not only in the harness and simulator
+  (supersedes the "not exercised yet" note in D21). `recovery/compensate` is an abort
+  signal served by the ASGI wrapper. Each hop first forwards it downstream, then builds
+  `Evidence(receipt=<own committed receipt>, upstream_aborted=True)` from its own store,
+  runs `decide()`, and compensates through its tool. The compensation is an intent with a
+  deterministic id and digest plus a signed receipt whose `prev` is the original, so
+  repeats dedup and cut reconciliation sees it. A hop verifies the downstream report
+  against its pinned key. A downstream failure never stops a hop compensating what its own
+  receipts prove; it only makes the overall status "quarantine". A tool without
+  `compensate`, an invalid signature, or an intent with no receipt is quarantined, never
+  guessed. Quarantine does not trigger an abort by itself: the caller sends the signal.
+  Like resolveIntent, the endpoint is unauthenticated in this sandbox.

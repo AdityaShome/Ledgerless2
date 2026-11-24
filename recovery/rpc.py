@@ -96,3 +96,46 @@ async def query_cut_remote(url, chain_id, http):
     if cp.chain_id != chain_id:
         raise ValueError("checkpoint chain mismatch")
     return cp
+
+
+METHOD_COMPENSATE = "recovery/compensate"
+
+
+async def handle_compensate_request(compensator, body):
+    """Abort signal: ask this hop (and, through it, everything downstream) to compensate."""
+    params = body.get("params")
+    if not isinstance(params, dict) or not isinstance(params.get("chain_id"), str):
+        return {
+            "jsonrpc": "2.0",
+            "id": body.get("id"),
+            "error": {"code": -32602, "message": "chain_id required"},
+        }
+    try:
+        result = await compensator(params["chain_id"])
+    except Exception as exc:  # noqa: BLE001 - never leak a traceback to the caller
+        return {
+            "jsonrpc": "2.0",
+            "id": body.get("id"),
+            "error": {"code": -32000, "message": f"compensation failed: {type(exc).__name__}"},
+        }
+    return {"jsonrpc": "2.0", "id": body.get("id"), "result": result}
+
+
+async def compensate_remote(url, chain_id, http, timeout=30.0):
+    """Send the abort signal to a hop; returns its compensation report."""
+    rid = str(uuid.uuid4())
+    response = await http.post(
+        url,
+        json={
+            "jsonrpc": "2.0",
+            "id": rid,
+            "method": METHOD_COMPENSATE,
+            "params": {"chain_id": chain_id},
+        },
+        timeout=timeout,
+    )
+    response.raise_for_status()
+    data = response.json()
+    if data.get("id") != rid or "error" in data:
+        raise RuntimeError(f"invalid compensation RPC response: {data.get('error')}")
+    return data["result"]

@@ -16,6 +16,7 @@ from a2a.types import Message, Part, Role
 from agents.tools.counter import EffectCounter
 from recovery.a2a_middleware import recovery_block, with_recovery
 from recovery.checkpoint import Checkpoint
+from recovery.compensation import compensate_local, compensations_ok, verify_compensations
 from recovery.cut_protocol import reconcile_cut
 from recovery.decide import Action, Evidence, decide
 from recovery.intents import Intent, compute_digest, make_intent
@@ -134,24 +135,12 @@ class ChainAgentExecutor(AgentExecutor):
 
     async def _delegate(self, text: str, chain_id: str | None, parent_hash: str | None) -> dict:
         from recovery.a2a_client import send_message
-        from recovery.a2a_middleware import EXTENSION_URI
-        from recovery.crypto import public_key_from_hex
 
         async with httpx.AsyncClient(timeout=10, trust_env=False) as http:
             pub = None
             org = None
             if chain_id is not None:
-                response = await http.get(
-                    self.downstream_url.rstrip("/") + "/.well-known/agent-card.json"
-                )
-                response.raise_for_status()
-                for extension in response.json().get("capabilities", {}).get("extensions", []):
-                    if extension.get("uri") == EXTENSION_URI:
-                        params = extension.get("params", {})
-                        org = params.get("org")
-                        if org not in self.peer_keys and self.discover_demo_keys:
-                            self.peer_keys[org] = public_key_from_hex(params["public_key"])
-                        pub = self.peer_keys.get(org)
+                org, pub = await self._downstream_identity(http)
                 if pub is None:
                     return {"status": "quarantine", "reason": "downstream key is not pinned"}
                 digest = (
@@ -193,6 +182,62 @@ class ChainAgentExecutor(AgentExecutor):
                 if check.conflicts or check.missing_at:
                     return {"status": "quarantine", "reason": "checkpoint conflict"}
             return result
+
+    async def _downstream_identity(self, http: httpx.AsyncClient):
+        """(org, pinned public key) of the downstream hop; key is None if not pinned."""
+        from recovery.a2a_middleware import EXTENSION_URI
+        from recovery.crypto import public_key_from_hex
+
+        response = await http.get(self.downstream_url.rstrip("/") + "/.well-known/agent-card.json")
+        response.raise_for_status()
+        org = pub = None
+        for extension in response.json().get("capabilities", {}).get("extensions", []):
+            if extension.get("uri") == EXTENSION_URI:
+                params = extension.get("params", {})
+                org = params.get("org")
+                if org not in self.peer_keys and self.discover_demo_keys:
+                    self.peer_keys[org] = public_key_from_hex(params["public_key"])
+                pub = self.peer_keys.get(org)
+        return org, pub
+
+    # -- abort / compensation (served as recovery/compensate) ---------------------------------
+    def _undo(self, original) -> str:
+        return self.tool.compensate(original.effect_ref)
+
+    async def compensate_chain(self, chain_id: str) -> dict:
+        """Upstream aborted: undo downstream first, then this hop, each from its own receipts.
+
+        A failure downstream never stops this hop from compensating what its own signed
+        receipts prove it committed; it only makes the overall status "quarantine".
+        """
+        report: dict = {"org": self.service.org, "chain_id": chain_id}
+        downstream_ok = True
+        if self.downstream_url:
+            report["downstream"] = await self._compensate_downstream(chain_id)
+            downstream_ok = report["downstream"].get("status") == "compensated"
+        undo = self._undo if hasattr(self.tool, "compensate") else None
+        report["compensations"] = compensate_local(self.service, chain_id, undo)
+        ok = downstream_ok and compensations_ok(report["compensations"])
+        report["status"] = "compensated" if ok else "quarantine"
+        return report
+
+    async def _compensate_downstream(self, chain_id: str) -> dict:
+        from recovery.rpc import compensate_remote
+
+        async with httpx.AsyncClient(timeout=30, trust_env=False) as http:
+            try:
+                org, pub = await self._downstream_identity(http)
+                if pub is None:
+                    return {"status": "quarantine", "reason": "downstream key is not pinned"}
+                report = await compensate_remote(self.downstream_url, chain_id, http)
+            except (httpx.HTTPError, RuntimeError, ValueError) as exc:
+                return {
+                    "status": "quarantine",
+                    "reason": f"downstream compensation unresolved: {type(exc).__name__}",
+                }
+        if not verify_compensations(report, chain_id, org, pub):
+            return {"status": "quarantine", "alert": True, "reason": "invalid compensation receipt"}
+        return report
 
     async def cancel(self, context: RequestContext, event_queue: EventQueue) -> None:
         raise NotImplementedError

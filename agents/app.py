@@ -59,7 +59,8 @@ def build_app(
     )
     routes = create_agent_card_routes(card) + create_jsonrpc_routes(handler, rpc_url="/")
     app = Starlette(routes=routes)
-    return RecoveryASGI(app, service) if extension else app
+    compensator = getattr(executor, "compensate_chain", None)
+    return RecoveryASGI(app, service, compensator) if extension else app
 
 
 @dataclass
