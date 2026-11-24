@@ -1,0 +1,7 @@
+| Use case | Fault | Status | Duplicate effects | Uncompleted | ms |
+|---|---|---|---:|---:|---:|
+| commerce | clean | completed | 0 | 0 | 340.244 |
+| logistics | clean | completed | 0 | 0 | 319.978 |
+| healthcare | clean | completed | 0 | 0 | 320.675 |
+| marketplace | clean | completed | 0 | 0 | 308.839 |
+| travel | clean | completed | 0 | 0 | 316.767 |

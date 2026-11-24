@@ -1,0 +1,17 @@
+
+****** SANY2 Version 2.2 created 08 July 2020
+
+Parsing file /workspace/scratch/16ae3042948b/Ledgerless_Combined/formal/A2ARecovery_cut.tla
+Parsing file /workspace/scratch/16ae3042948b/Ledgerless_Combined/formal/A2ARecovery.tla
+Parsing file /tmp/tlc-11795125473931623813/Naturals.tla (jar:file:/tmp/combined-tla2tools.jar!/tla2sany/StandardModules/Naturals.tla)
+Parsing file /tmp/tlc-11795125473931623813/FiniteSets.tla (jar:file:/tmp/combined-tla2tools.jar!/tla2sany/StandardModules/FiniteSets.tla)
+Parsing file /tmp/tlc-11795125473931623813/TLC.tla (jar:file:/tmp/combined-tla2tools.jar!/tla2sany/StandardModules/TLC.tla)
+Parsing file /tmp/tlc-11795125473931623813/Sequences.tla (jar:file:/tmp/combined-tla2tools.jar!/tla2sany/StandardModules/Sequences.tla)
+Semantic processing of module Naturals
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module TLC
+Semantic processing of module A2ARecovery
+Semantic processing of module A2ARecovery_cut
+Linting of module A2ARecovery
+Linting of module A2ARecovery_cut

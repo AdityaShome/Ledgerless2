@@ -1,0 +1,9 @@
+Processing ./.
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Building wheels for collected packages: a2a-recovery
+  Building wheel for a2a-recovery (pyproject.toml): started
+  Building wheel for a2a-recovery (pyproject.toml): finished with status 'done'
+  Created wheel for a2a-recovery: filename=a2a_recovery-0.1.0-py3-none-any.whl size=71462 sha256=c223912dfa96e87edf0c2c7ff65211a2aeb2ffa6b964e908cce49329fdefc8ab
+  Stored in directory: /tmp/pip-ephem-wheel-cache-6nj53het/wheels/e5/1e/63/e5583ed3026523d073b9f389ee1a6eccad203b73e71c284355
+Successfully built a2a-recovery

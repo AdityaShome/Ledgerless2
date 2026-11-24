@@ -1,0 +1,90 @@
+{
+  "c1_replan_sweep.csv": {
+    "config": {
+      "depth": 3,
+      "fanout": 1,
+      "p_replan": [
+        0.0,
+        0.1,
+        0.25,
+        0.5,
+        0.75,
+        1.0
+      ],
+      "scenario": "F5_replan_on_replay",
+      "seeds": "0..499",
+      "systems": [
+        "default_sdk",
+        "request_id",
+        "ours",
+        "ours_fine",
+        "ours_fine_persist",
+        "temporal_bridge"
+      ]
+    },
+    "git_commit": "7a26ae79d9cd237490b17dc5c009bed5043557aa",
+    "git_dirty": false,
+    "seconds": 13.9
+  },
+  "grid.csv": {
+    "config": {
+      "depths": [
+        2,
+        3,
+        5
+      ],
+      "fanouts": [
+        1,
+        3
+      ],
+      "scenarios": [
+        "F0_clean",
+        "F1_crash_after_effect",
+        "F2_receipt_lost",
+        "F3_duplicate_delivery",
+        "F4_replica_failover",
+        "F5_replan_on_replay",
+        "F6_partition_permanent",
+        "F6_partition_transient",
+        "F7_forged_receipt",
+        "F8_upstream_abort"
+      ],
+      "seeds": "0..499",
+      "systems": [
+        "default_sdk",
+        "digest_only_coarse",
+        "digest_only_fine",
+        "digest_only_medium",
+        "ours",
+        "ours_coarse",
+        "ours_fine",
+        "ours_fine_persist",
+        "ours_medium_persist",
+        "ours_no_intents",
+        "ours_no_resolve",
+        "request_id",
+        "saga",
+        "temporal_bridge"
+      ]
+    },
+    "git_commit": "7a26ae79d9cd237490b17dc5c009bed5043557aa",
+    "git_dirty": false,
+    "seconds": 521.5
+  },
+  "rq4_granularity.csv": {
+    "config": {
+      "n_effects": 200,
+      "p_replan": 0.5,
+      "policies": [
+        "coarse",
+        "medium_amount",
+        "medium_right",
+        "fine"
+      ],
+      "seeds": "0..99"
+    },
+    "git_commit": "7a26ae79d9cd237490b17dc5c009bed5043557aa",
+    "git_dirty": false,
+    "seconds": 13.9
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "name": "healthcare",
+  "title": "Healthcare and insurance",
+  "initial_guidelines": "Use synthetic data only. Follow the common specification. Never repeat a committed effect. Quarantine unknown outcomes. Publish only opaque references and status summaries.",
+  "specification": {
+    "max_amount": 1000,
+    "require_receipt_verification": true,
+    "allow_compensation": true,
+    "steps": [
+      {
+        "org": "hospital",
+        "action_type": "submit_referral",
+        "target": "hospital-sandbox",
+        "params": {
+          "referral_id": "referral-demo-001",
+          "patient_token": "synthetic-token-01",
+          "benefit_code": "TEST-ONLY"
+        },
+        "semantic_keys": [
+          "referral_id",
+          "patient_token",
+          "benefit_code"
+        ],
+        "compensation": "withdraw_referral"
+      },
+      {
+        "org": "insurer",
+        "action_type": "authorize_request",
+        "target": "insurer-sandbox",
+        "params": {
+          "referral_id": "referral-demo-001",
+          "patient_token": "synthetic-token-01",
+          "benefit_code": "TEST-ONLY"
+        },
+        "semantic_keys": [
+          "referral_id",
+          "patient_token",
+          "benefit_code"
+        ],
+        "compensation": "revoke_authorization"
+      },
+      {
+        "org": "pharmacy_benefit",
+        "action_type": "approve_benefit",
+        "target": "pharmacy_benefit-sandbox",
+        "params": {
+          "referral_id": "referral-demo-001",
+          "patient_token": "synthetic-token-01",
+          "benefit_code": "TEST-ONLY"
+        },
+        "semantic_keys": [
+          "referral_id",
+          "patient_token",
+          "benefit_code"
+        ],
+        "compensation": "withdraw_benefit"
+      }
+    ]
+  }
+}

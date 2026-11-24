@@ -1,0 +1,28 @@
+LEDGERLESS COMBINED
+
+1. Extract this ZIP. Open a terminal inside the Ledgerless folder.
+2. Install Python 3.11 or later if needed.
+3. Create and activate a virtual environment (recommended).
+4. Run:
+       python -m pip install -e ".[dev]"
+       python run_dashboard.py
+5. Open http://127.0.0.1:8080 in one browser window.
+6. Choose a use case, enter initial guidelines, review the common specification,
+   and click Run A -> B -> C.
+
+Every agent reads the common specification and adds signed updates to the same
+intent box. The three organizations keep independent recovery stores. All effects
+are synthetic. No API keys or paid services are required.
+
+Run tests:
+    python -m pytest -q
+
+Run all five use cases without the dashboard:
+    python -m examples.run_use_cases --case all --fault clean
+
+Run real HTTP fault cases:
+    python -m bench.http_use_cases --case all --fault all
+
+Internet access is needed for the initial dependency installation. Java and a
+separate TLC JAR are needed only to rerun the formal checks. See README.md and
+VALIDATION.md for the scope of guarantees and the checks actually performed.

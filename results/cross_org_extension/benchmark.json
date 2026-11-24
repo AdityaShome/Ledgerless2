@@ -1,0 +1,2002 @@
+[
+  {
+    "scenario": "duplicate_execution",
+    "baseline": "ledgerless",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 11.232672999994975,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "duplicate_execution",
+    "baseline": "ledgerless",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 6.299406000039198,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "duplicate_execution",
+    "baseline": "ledgerless",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 7.140530000015133,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "duplicate_execution",
+    "baseline": "ledgerless",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 4.246423000040522,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "duplicate_execution",
+    "baseline": "ledgerless",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 4.583645000025172,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "duplicate_execution",
+    "baseline": "ledgerless",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 3.4547829999382884,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "duplicate_execution",
+    "baseline": "ledgerless",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 3.740560999972331,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "duplicate_execution",
+    "baseline": "ledgerless",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 3.762456000004022,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "duplicate_execution",
+    "baseline": "ledgerless",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 3.287375000013526,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "duplicate_execution",
+    "baseline": "ledgerless",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 5.111506000048394,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "duplicate_execution",
+    "baseline": "default_sdk",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 1.7344709999633778,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "duplicate_execution",
+    "baseline": "default_sdk",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 5.9001979999493415,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "duplicate_execution",
+    "baseline": "default_sdk",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 10.914610999975594,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "duplicate_execution",
+    "baseline": "default_sdk",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 5.774887000029594,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "duplicate_execution",
+    "baseline": "default_sdk",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 2.3499169999467995,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "duplicate_execution",
+    "baseline": "default_sdk",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 1.5165259999321279,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "duplicate_execution",
+    "baseline": "default_sdk",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 1.3023129999965022,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "duplicate_execution",
+    "baseline": "default_sdk",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 7.3877160000392905,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "duplicate_execution",
+    "baseline": "default_sdk",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 1.8293480000011186,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "duplicate_execution",
+    "baseline": "default_sdk",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 0.997493999989274,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "duplicate_execution",
+    "baseline": "temporal_bridge_sim",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 1.5810539999847606,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "duplicate_execution",
+    "baseline": "temporal_bridge_sim",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 2.2888209999791798,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "duplicate_execution",
+    "baseline": "temporal_bridge_sim",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 2.679528000044229,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "duplicate_execution",
+    "baseline": "temporal_bridge_sim",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 1.6989439999406386,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "duplicate_execution",
+    "baseline": "temporal_bridge_sim",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 2.134886000021652,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "duplicate_execution",
+    "baseline": "temporal_bridge_sim",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 1.6019530000903615,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "duplicate_execution",
+    "baseline": "temporal_bridge_sim",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 2.0424970000476605,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "duplicate_execution",
+    "baseline": "temporal_bridge_sim",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 2.297659999953794,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "duplicate_execution",
+    "baseline": "temporal_bridge_sim",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 1.145360000009532,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "duplicate_execution",
+    "baseline": "temporal_bridge_sim",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 1.0770220000040354,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "duplicate_execution",
+    "baseline": "mesh_quarantine_sim",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 3.2054710000011255,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "duplicate_execution",
+    "baseline": "mesh_quarantine_sim",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 30.435934000024645,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "duplicate_execution",
+    "baseline": "mesh_quarantine_sim",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 21.587441000065155,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "duplicate_execution",
+    "baseline": "mesh_quarantine_sim",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 3.9749040000742752,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "duplicate_execution",
+    "baseline": "mesh_quarantine_sim",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 8.334258999980193,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "duplicate_execution",
+    "baseline": "mesh_quarantine_sim",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 5.4470409999112235,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "duplicate_execution",
+    "baseline": "mesh_quarantine_sim",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 2.9204659999777505,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "duplicate_execution",
+    "baseline": "mesh_quarantine_sim",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 2.216389999944113,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "duplicate_execution",
+    "baseline": "mesh_quarantine_sim",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 2.750901000013073,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "duplicate_execution",
+    "baseline": "mesh_quarantine_sim",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 3.0659679999871514,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "lost_event",
+    "baseline": "ledgerless",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 3.3870469999328634,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "lost_event",
+    "baseline": "ledgerless",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 5.495997000025454,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "lost_event",
+    "baseline": "ledgerless",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 15.986540999961107,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "lost_event",
+    "baseline": "ledgerless",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 2.617110000073808,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "lost_event",
+    "baseline": "ledgerless",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 3.125799000031293,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "lost_event",
+    "baseline": "ledgerless",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 2.8014429999529966,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "lost_event",
+    "baseline": "ledgerless",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 8.191716999931486,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "lost_event",
+    "baseline": "ledgerless",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 3.1773460000295017,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "lost_event",
+    "baseline": "ledgerless",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 4.323572000089371,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "lost_event",
+    "baseline": "ledgerless",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 5.848818999993455,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "lost_event",
+    "baseline": "default_sdk",
+    "duplicate_executions": 3,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 1.4848839999785923,
+    "quarantine_rate": 0.0,
+    "passed": false
+  },
+  {
+    "scenario": "lost_event",
+    "baseline": "default_sdk",
+    "duplicate_executions": 3,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 4.813149000028716,
+    "quarantine_rate": 0.0,
+    "passed": false
+  },
+  {
+    "scenario": "lost_event",
+    "baseline": "default_sdk",
+    "duplicate_executions": 3,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 1.3931649999676665,
+    "quarantine_rate": 0.0,
+    "passed": false
+  },
+  {
+    "scenario": "lost_event",
+    "baseline": "default_sdk",
+    "duplicate_executions": 3,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 2.0794949999753953,
+    "quarantine_rate": 0.0,
+    "passed": false
+  },
+  {
+    "scenario": "lost_event",
+    "baseline": "default_sdk",
+    "duplicate_executions": 3,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 1.4359229999172385,
+    "quarantine_rate": 0.0,
+    "passed": false
+  },
+  {
+    "scenario": "lost_event",
+    "baseline": "default_sdk",
+    "duplicate_executions": 3,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 2.256083000020226,
+    "quarantine_rate": 0.0,
+    "passed": false
+  },
+  {
+    "scenario": "lost_event",
+    "baseline": "default_sdk",
+    "duplicate_executions": 3,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 0.9661649999088695,
+    "quarantine_rate": 0.0,
+    "passed": false
+  },
+  {
+    "scenario": "lost_event",
+    "baseline": "default_sdk",
+    "duplicate_executions": 3,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 1.4692849999846658,
+    "quarantine_rate": 0.0,
+    "passed": false
+  },
+  {
+    "scenario": "lost_event",
+    "baseline": "default_sdk",
+    "duplicate_executions": 3,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 2.524278000009872,
+    "quarantine_rate": 0.0,
+    "passed": false
+  },
+  {
+    "scenario": "lost_event",
+    "baseline": "default_sdk",
+    "duplicate_executions": 3,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 2.030310999998619,
+    "quarantine_rate": 0.0,
+    "passed": false
+  },
+  {
+    "scenario": "lost_event",
+    "baseline": "temporal_bridge_sim",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 1.9494819999863466,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "lost_event",
+    "baseline": "temporal_bridge_sim",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 3.0686430000059772,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "lost_event",
+    "baseline": "temporal_bridge_sim",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 1.726543000017955,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "lost_event",
+    "baseline": "temporal_bridge_sim",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 1.6438509999261441,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "lost_event",
+    "baseline": "temporal_bridge_sim",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 1.553553999997348,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "lost_event",
+    "baseline": "temporal_bridge_sim",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 1.7280609999943408,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "lost_event",
+    "baseline": "temporal_bridge_sim",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 3.1408959999907893,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "lost_event",
+    "baseline": "temporal_bridge_sim",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 2.1706170000470593,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "lost_event",
+    "baseline": "temporal_bridge_sim",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 4.903015000081723,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "lost_event",
+    "baseline": "temporal_bridge_sim",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 1.6658189999816386,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "lost_event",
+    "baseline": "mesh_quarantine_sim",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 2.4556749999646854,
+    "quarantine_rate": 1.0,
+    "passed": true
+  },
+  {
+    "scenario": "lost_event",
+    "baseline": "mesh_quarantine_sim",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 2.247594000095887,
+    "quarantine_rate": 1.0,
+    "passed": true
+  },
+  {
+    "scenario": "lost_event",
+    "baseline": "mesh_quarantine_sim",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 1.9974560000264319,
+    "quarantine_rate": 1.0,
+    "passed": true
+  },
+  {
+    "scenario": "lost_event",
+    "baseline": "mesh_quarantine_sim",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 1.7338899999685964,
+    "quarantine_rate": 1.0,
+    "passed": true
+  },
+  {
+    "scenario": "lost_event",
+    "baseline": "mesh_quarantine_sim",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 6.838440000024093,
+    "quarantine_rate": 1.0,
+    "passed": true
+  },
+  {
+    "scenario": "lost_event",
+    "baseline": "mesh_quarantine_sim",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 2.8416129999868645,
+    "quarantine_rate": 1.0,
+    "passed": true
+  },
+  {
+    "scenario": "lost_event",
+    "baseline": "mesh_quarantine_sim",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 6.025432999990699,
+    "quarantine_rate": 1.0,
+    "passed": true
+  },
+  {
+    "scenario": "lost_event",
+    "baseline": "mesh_quarantine_sim",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 2.1444879999990007,
+    "quarantine_rate": 1.0,
+    "passed": true
+  },
+  {
+    "scenario": "lost_event",
+    "baseline": "mesh_quarantine_sim",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 1.6805699999622448,
+    "quarantine_rate": 1.0,
+    "passed": true
+  },
+  {
+    "scenario": "lost_event",
+    "baseline": "mesh_quarantine_sim",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 2.1606369999744857,
+    "quarantine_rate": 1.0,
+    "passed": true
+  },
+  {
+    "scenario": "lost_request",
+    "baseline": "ledgerless",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 3.915796000001137,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "lost_request",
+    "baseline": "ledgerless",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 4.041934000042602,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "lost_request",
+    "baseline": "ledgerless",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 3.1419100000675826,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "lost_request",
+    "baseline": "ledgerless",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 2.5014130000045043,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "lost_request",
+    "baseline": "ledgerless",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 2.3774180000373235,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "lost_request",
+    "baseline": "ledgerless",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 2.0720310000115205,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "lost_request",
+    "baseline": "ledgerless",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 1.7864809999537101,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "lost_request",
+    "baseline": "ledgerless",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 3.278249999993932,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "lost_request",
+    "baseline": "ledgerless",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 1.9352549999211988,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "lost_request",
+    "baseline": "ledgerless",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 2.357624999945074,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "lost_request",
+    "baseline": "default_sdk",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 0.8634029999257109,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "lost_request",
+    "baseline": "default_sdk",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 0.933474000021306,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "lost_request",
+    "baseline": "default_sdk",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 1.5054799999916213,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "lost_request",
+    "baseline": "default_sdk",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 1.2066809999851102,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "lost_request",
+    "baseline": "default_sdk",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 0.977508999994825,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "lost_request",
+    "baseline": "default_sdk",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 0.5739419999599704,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "lost_request",
+    "baseline": "default_sdk",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 0.4492699999900651,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "lost_request",
+    "baseline": "default_sdk",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 0.5674999999882857,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "lost_request",
+    "baseline": "default_sdk",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 0.9027759999753471,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "lost_request",
+    "baseline": "default_sdk",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 0.766582000096605,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "lost_request",
+    "baseline": "temporal_bridge_sim",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 1.0063600000194128,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "lost_request",
+    "baseline": "temporal_bridge_sim",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 0.7166589999769712,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "lost_request",
+    "baseline": "temporal_bridge_sim",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 0.7098560000713405,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "lost_request",
+    "baseline": "temporal_bridge_sim",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 0.9942679999994652,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "lost_request",
+    "baseline": "temporal_bridge_sim",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 10.162055000023429,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "lost_request",
+    "baseline": "temporal_bridge_sim",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 0.7664220000833666,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "lost_request",
+    "baseline": "temporal_bridge_sim",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 0.7128209999791579,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "lost_request",
+    "baseline": "temporal_bridge_sim",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 1.166629999943325,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "lost_request",
+    "baseline": "temporal_bridge_sim",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 0.9664560000146594,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "lost_request",
+    "baseline": "temporal_bridge_sim",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 0.9927849999940008,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "lost_request",
+    "baseline": "mesh_quarantine_sim",
+    "duplicate_executions": 0,
+    "lost_effects": 3,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 0.03905299990947242,
+    "quarantine_rate": 1.0,
+    "passed": true
+  },
+  {
+    "scenario": "lost_request",
+    "baseline": "mesh_quarantine_sim",
+    "duplicate_executions": 0,
+    "lost_effects": 3,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 0.04278999995221966,
+    "quarantine_rate": 1.0,
+    "passed": true
+  },
+  {
+    "scenario": "lost_request",
+    "baseline": "mesh_quarantine_sim",
+    "duplicate_executions": 0,
+    "lost_effects": 3,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 0.03841099999135622,
+    "quarantine_rate": 1.0,
+    "passed": true
+  },
+  {
+    "scenario": "lost_request",
+    "baseline": "mesh_quarantine_sim",
+    "duplicate_executions": 0,
+    "lost_effects": 3,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 0.04015499996512517,
+    "quarantine_rate": 1.0,
+    "passed": true
+  },
+  {
+    "scenario": "lost_request",
+    "baseline": "mesh_quarantine_sim",
+    "duplicate_executions": 0,
+    "lost_effects": 3,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 0.14300699990599242,
+    "quarantine_rate": 1.0,
+    "passed": true
+  },
+  {
+    "scenario": "lost_request",
+    "baseline": "mesh_quarantine_sim",
+    "duplicate_executions": 0,
+    "lost_effects": 3,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 0.03816100002040912,
+    "quarantine_rate": 1.0,
+    "passed": true
+  },
+  {
+    "scenario": "lost_request",
+    "baseline": "mesh_quarantine_sim",
+    "duplicate_executions": 0,
+    "lost_effects": 3,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 0.03822199994374387,
+    "quarantine_rate": 1.0,
+    "passed": true
+  },
+  {
+    "scenario": "lost_request",
+    "baseline": "mesh_quarantine_sim",
+    "duplicate_executions": 0,
+    "lost_effects": 3,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 0.03901200000200333,
+    "quarantine_rate": 1.0,
+    "passed": true
+  },
+  {
+    "scenario": "lost_request",
+    "baseline": "mesh_quarantine_sim",
+    "duplicate_executions": 0,
+    "lost_effects": 3,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 0.04106699998374097,
+    "quarantine_rate": 1.0,
+    "passed": true
+  },
+  {
+    "scenario": "lost_request",
+    "baseline": "mesh_quarantine_sim",
+    "duplicate_executions": 0,
+    "lost_effects": 3,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 0.0386219999199966,
+    "quarantine_rate": 1.0,
+    "passed": true
+  },
+  {
+    "scenario": "wrong_task_recovery",
+    "baseline": "ledgerless",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 1.8683209999608152,
+    "quarantine_rate": 1.0,
+    "passed": true
+  },
+  {
+    "scenario": "wrong_task_recovery",
+    "baseline": "ledgerless",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 1.9729360000155793,
+    "quarantine_rate": 1.0,
+    "passed": true
+  },
+  {
+    "scenario": "wrong_task_recovery",
+    "baseline": "ledgerless",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 1.621508999960497,
+    "quarantine_rate": 1.0,
+    "passed": true
+  },
+  {
+    "scenario": "wrong_task_recovery",
+    "baseline": "ledgerless",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 2.680617999999413,
+    "quarantine_rate": 1.0,
+    "passed": true
+  },
+  {
+    "scenario": "wrong_task_recovery",
+    "baseline": "ledgerless",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 1.9890720000148576,
+    "quarantine_rate": 1.0,
+    "passed": true
+  },
+  {
+    "scenario": "wrong_task_recovery",
+    "baseline": "ledgerless",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 1.8984359999194567,
+    "quarantine_rate": 1.0,
+    "passed": true
+  },
+  {
+    "scenario": "wrong_task_recovery",
+    "baseline": "ledgerless",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 1.6413759999522881,
+    "quarantine_rate": 1.0,
+    "passed": true
+  },
+  {
+    "scenario": "wrong_task_recovery",
+    "baseline": "ledgerless",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 1.8531719999828056,
+    "quarantine_rate": 1.0,
+    "passed": true
+  },
+  {
+    "scenario": "wrong_task_recovery",
+    "baseline": "ledgerless",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 1.6532590000224445,
+    "quarantine_rate": 1.0,
+    "passed": true
+  },
+  {
+    "scenario": "wrong_task_recovery",
+    "baseline": "ledgerless",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 2.5531640000053812,
+    "quarantine_rate": 1.0,
+    "passed": true
+  },
+  {
+    "scenario": "wrong_task_recovery",
+    "baseline": "default_sdk",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 3,
+    "recovery_time_ms": 0.7913629999620753,
+    "quarantine_rate": 0.0,
+    "passed": false
+  },
+  {
+    "scenario": "wrong_task_recovery",
+    "baseline": "default_sdk",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 3,
+    "recovery_time_ms": 1.0379519999332842,
+    "quarantine_rate": 0.0,
+    "passed": false
+  },
+  {
+    "scenario": "wrong_task_recovery",
+    "baseline": "default_sdk",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 3,
+    "recovery_time_ms": 1.7550189999155918,
+    "quarantine_rate": 0.0,
+    "passed": false
+  },
+  {
+    "scenario": "wrong_task_recovery",
+    "baseline": "default_sdk",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 3,
+    "recovery_time_ms": 1.0047199999689838,
+    "quarantine_rate": 0.0,
+    "passed": false
+  },
+  {
+    "scenario": "wrong_task_recovery",
+    "baseline": "default_sdk",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 3,
+    "recovery_time_ms": 1.07798500005174,
+    "quarantine_rate": 0.0,
+    "passed": false
+  },
+  {
+    "scenario": "wrong_task_recovery",
+    "baseline": "default_sdk",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 3,
+    "recovery_time_ms": 0.7453319999513042,
+    "quarantine_rate": 0.0,
+    "passed": false
+  },
+  {
+    "scenario": "wrong_task_recovery",
+    "baseline": "default_sdk",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 3,
+    "recovery_time_ms": 1.4697860000296714,
+    "quarantine_rate": 0.0,
+    "passed": false
+  },
+  {
+    "scenario": "wrong_task_recovery",
+    "baseline": "default_sdk",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 3,
+    "recovery_time_ms": 0.7418960000222796,
+    "quarantine_rate": 0.0,
+    "passed": false
+  },
+  {
+    "scenario": "wrong_task_recovery",
+    "baseline": "default_sdk",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 3,
+    "recovery_time_ms": 1.0224100000186809,
+    "quarantine_rate": 0.0,
+    "passed": false
+  },
+  {
+    "scenario": "wrong_task_recovery",
+    "baseline": "default_sdk",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 3,
+    "recovery_time_ms": 1.3748900000791764,
+    "quarantine_rate": 0.0,
+    "passed": false
+  },
+  {
+    "scenario": "wrong_task_recovery",
+    "baseline": "temporal_bridge_sim",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 0.7160480000720781,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "wrong_task_recovery",
+    "baseline": "temporal_bridge_sim",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 1.936497999963649,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "wrong_task_recovery",
+    "baseline": "temporal_bridge_sim",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 0.7615730000907206,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "wrong_task_recovery",
+    "baseline": "temporal_bridge_sim",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 0.9005819999856612,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "wrong_task_recovery",
+    "baseline": "temporal_bridge_sim",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 0.7888540000067223,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "wrong_task_recovery",
+    "baseline": "temporal_bridge_sim",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 0.6451250000054642,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "wrong_task_recovery",
+    "baseline": "temporal_bridge_sim",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 0.5566899999394082,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "wrong_task_recovery",
+    "baseline": "temporal_bridge_sim",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 0.6212709999999788,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "wrong_task_recovery",
+    "baseline": "temporal_bridge_sim",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 0.9470390000387852,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "wrong_task_recovery",
+    "baseline": "temporal_bridge_sim",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 0.5848019999348253,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "wrong_task_recovery",
+    "baseline": "mesh_quarantine_sim",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 1.7462020000493794,
+    "quarantine_rate": 1.0,
+    "passed": true
+  },
+  {
+    "scenario": "wrong_task_recovery",
+    "baseline": "mesh_quarantine_sim",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 8.402566999961891,
+    "quarantine_rate": 1.0,
+    "passed": true
+  },
+  {
+    "scenario": "wrong_task_recovery",
+    "baseline": "mesh_quarantine_sim",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 1.9049440001026596,
+    "quarantine_rate": 1.0,
+    "passed": true
+  },
+  {
+    "scenario": "wrong_task_recovery",
+    "baseline": "mesh_quarantine_sim",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 1.9821879999426528,
+    "quarantine_rate": 1.0,
+    "passed": true
+  },
+  {
+    "scenario": "wrong_task_recovery",
+    "baseline": "mesh_quarantine_sim",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 1.9876439999961804,
+    "quarantine_rate": 1.0,
+    "passed": true
+  },
+  {
+    "scenario": "wrong_task_recovery",
+    "baseline": "mesh_quarantine_sim",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 2.2335189999012073,
+    "quarantine_rate": 1.0,
+    "passed": true
+  },
+  {
+    "scenario": "wrong_task_recovery",
+    "baseline": "mesh_quarantine_sim",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 1.825150000058784,
+    "quarantine_rate": 1.0,
+    "passed": true
+  },
+  {
+    "scenario": "wrong_task_recovery",
+    "baseline": "mesh_quarantine_sim",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 2.0547780000015337,
+    "quarantine_rate": 1.0,
+    "passed": true
+  },
+  {
+    "scenario": "wrong_task_recovery",
+    "baseline": "mesh_quarantine_sim",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 1.7473450000125013,
+    "quarantine_rate": 1.0,
+    "passed": true
+  },
+  {
+    "scenario": "wrong_task_recovery",
+    "baseline": "mesh_quarantine_sim",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 1.7986410000503383,
+    "quarantine_rate": 1.0,
+    "passed": true
+  },
+  {
+    "scenario": "recovery_time",
+    "baseline": "ledgerless",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 0.10256200005187566,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "recovery_time",
+    "baseline": "ledgerless",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 0.3156800000851945,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "recovery_time",
+    "baseline": "ledgerless",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 0.09275299998989794,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "recovery_time",
+    "baseline": "ledgerless",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 0.09400600004028092,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "recovery_time",
+    "baseline": "ledgerless",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 0.09462699995310686,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "recovery_time",
+    "baseline": "ledgerless",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 0.11922200008029904,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "recovery_time",
+    "baseline": "ledgerless",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 0.12177799999335548,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "recovery_time",
+    "baseline": "ledgerless",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 0.17649000005803828,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "recovery_time",
+    "baseline": "ledgerless",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 0.09372499994242389,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "recovery_time",
+    "baseline": "ledgerless",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 0.28026400002545415,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "recovery_time",
+    "baseline": "default_sdk",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 0.007042999982331821,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "recovery_time",
+    "baseline": "default_sdk",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 0.007223000011435943,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "recovery_time",
+    "baseline": "default_sdk",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 0.009728000009090465,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "recovery_time",
+    "baseline": "default_sdk",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 0.0080249999427906,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "recovery_time",
+    "baseline": "default_sdk",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 0.007524000011471799,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "recovery_time",
+    "baseline": "default_sdk",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 0.008555999897907896,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "recovery_time",
+    "baseline": "default_sdk",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 0.011310999980196357,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "recovery_time",
+    "baseline": "default_sdk",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 0.009457000032853102,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "recovery_time",
+    "baseline": "default_sdk",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 0.0074939999876733054,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "recovery_time",
+    "baseline": "default_sdk",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 0.007312999969144585,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "recovery_time",
+    "baseline": "temporal_bridge_sim",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 0.010238999948342098,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "recovery_time",
+    "baseline": "temporal_bridge_sim",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 0.007754999955977837,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "recovery_time",
+    "baseline": "temporal_bridge_sim",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 0.009048000038092141,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "recovery_time",
+    "baseline": "temporal_bridge_sim",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 0.008105000006253249,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "recovery_time",
+    "baseline": "temporal_bridge_sim",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 0.00967799996942631,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "recovery_time",
+    "baseline": "temporal_bridge_sim",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 0.00778499997977633,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "recovery_time",
+    "baseline": "temporal_bridge_sim",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 0.009798999940358044,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "recovery_time",
+    "baseline": "temporal_bridge_sim",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 0.008375999982490612,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "recovery_time",
+    "baseline": "temporal_bridge_sim",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 0.007985000024746114,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "recovery_time",
+    "baseline": "temporal_bridge_sim",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 0.008164999940163398,
+    "quarantine_rate": 0.0,
+    "passed": true
+  },
+  {
+    "scenario": "recovery_time",
+    "baseline": "mesh_quarantine_sim",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 0.008566000019527564,
+    "quarantine_rate": 1.0,
+    "passed": true
+  },
+  {
+    "scenario": "recovery_time",
+    "baseline": "mesh_quarantine_sim",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 0.007753999966553238,
+    "quarantine_rate": 1.0,
+    "passed": true
+  },
+  {
+    "scenario": "recovery_time",
+    "baseline": "mesh_quarantine_sim",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 0.007914999969216296,
+    "quarantine_rate": 1.0,
+    "passed": true
+  },
+  {
+    "scenario": "recovery_time",
+    "baseline": "mesh_quarantine_sim",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 0.007704999916313682,
+    "quarantine_rate": 1.0,
+    "passed": true
+  },
+  {
+    "scenario": "recovery_time",
+    "baseline": "mesh_quarantine_sim",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 0.008234999995693215,
+    "quarantine_rate": 1.0,
+    "passed": true
+  },
+  {
+    "scenario": "recovery_time",
+    "baseline": "mesh_quarantine_sim",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 0.007934999985081959,
+    "quarantine_rate": 1.0,
+    "passed": true
+  },
+  {
+    "scenario": "recovery_time",
+    "baseline": "mesh_quarantine_sim",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 0.007794999987709161,
+    "quarantine_rate": 1.0,
+    "passed": true
+  },
+  {
+    "scenario": "recovery_time",
+    "baseline": "mesh_quarantine_sim",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 0.010059000032924814,
+    "quarantine_rate": 1.0,
+    "passed": true
+  },
+  {
+    "scenario": "recovery_time",
+    "baseline": "mesh_quarantine_sim",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 0.007123999921532231,
+    "quarantine_rate": 1.0,
+    "passed": true
+  },
+  {
+    "scenario": "recovery_time",
+    "baseline": "mesh_quarantine_sim",
+    "duplicate_executions": 0,
+    "lost_effects": 0,
+    "wrong_task_recoveries": 0,
+    "recovery_time_ms": 0.007583999945381947,
+    "quarantine_rate": 1.0,
+    "passed": true
+  }
+]

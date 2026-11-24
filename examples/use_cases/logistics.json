@@ -1,0 +1,60 @@
+{
+  "name": "logistics",
+  "title": "Supply chain and logistics",
+  "initial_guidelines": "Use synthetic data only. Follow the common specification. Never repeat a committed effect. Quarantine unknown outcomes. Publish only opaque references and status summaries.",
+  "specification": {
+    "max_amount": 1000,
+    "require_receipt_verification": true,
+    "allow_compensation": true,
+    "steps": [
+      {
+        "org": "manufacturer",
+        "action_type": "request_freight",
+        "target": "manufacturer-sandbox",
+        "params": {
+          "booking_id": "freight-demo-001",
+          "route": "BLR-MAA",
+          "slots": 1
+        },
+        "semantic_keys": [
+          "booking_id",
+          "route",
+          "slots"
+        ],
+        "compensation": "cancel_request"
+      },
+      {
+        "org": "broker",
+        "action_type": "broker_reservation",
+        "target": "broker-sandbox",
+        "params": {
+          "booking_id": "freight-demo-001",
+          "route": "BLR-MAA",
+          "slots": 1
+        },
+        "semantic_keys": [
+          "booking_id",
+          "route",
+          "slots"
+        ],
+        "compensation": "cancel_reservation"
+      },
+      {
+        "org": "carrier",
+        "action_type": "book_freight",
+        "target": "carrier-sandbox",
+        "params": {
+          "booking_id": "freight-demo-001",
+          "route": "BLR-MAA",
+          "slots": 1
+        },
+        "semantic_keys": [
+          "booking_id",
+          "route",
+          "slots"
+        ],
+        "compensation": "release_capacity"
+      }
+    ]
+  }
+}

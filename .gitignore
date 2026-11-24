@@ -1,0 +1,14 @@
+__pycache__/
+.venv/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+*.db
+keys/
+/tools/
+
+# Local single-window demo state and secrets
+demo_state/
+*.sqlite
+*.sqlite-*
+*.key

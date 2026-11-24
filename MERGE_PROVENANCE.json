@@ -1,0 +1,61 @@
+{
+  "upstream_url": "https://github.com/AdityaShome/Ledgerless",
+  "upstream_commit": "e5e98da6f16af09fa6853bae2ece7ca63372de05",
+  "extension_archive": "Ledgerless_Extended.zip",
+  "single_source_tree": true,
+  "resolutions": [
+    {
+      "path": "DECISIONS.md",
+      "choice": "upstream retained and documentation consolidated"
+    },
+    {
+      "path": "pyproject.toml",
+      "choice": "extension retained; upstream plan storage integrated separately"
+    },
+    {
+      "path": "README.md",
+      "choice": "upstream retained and documentation consolidated"
+    },
+    {
+      "path": "agents/app.py",
+      "choice": "extension retained; upstream plan storage integrated separately"
+    },
+    {
+      "path": "agents/chain_agent.py",
+      "choice": "extension retained; upstream plan storage integrated separately"
+    },
+    {
+      "path": "recovery/a2a_middleware.py",
+      "choice": "extension retained; upstream plan storage integrated separately"
+    },
+    {
+      "path": "recovery/rpc.py",
+      "choice": "extension retained; upstream plan storage integrated separately"
+    },
+    {
+      "path": "recovery/store.py",
+      "choice": "extension retained; upstream plan storage integrated separately"
+    },
+    {
+      "path": "recovery/decide.py",
+      "choice": "extension retained; upstream plan storage integrated separately"
+    },
+    {
+      "path": "recovery/service.py",
+      "choice": "extension retained; upstream plan storage integrated separately"
+    },
+    {
+      "path": "baselines/temporal_bridge/__init__.py",
+      "choice": "upstream retained and documentation consolidated"
+    }
+  ],
+  "extension_sha256": "42c49724ae0c9028ed9205952c8f673700e0e5016915f4d1f750f89a028d12d9",
+  "merged_release": "0.1.0",
+  "added": [
+    "dashboard",
+    "shared signed versioned intent box",
+    "five minimal JSON use cases",
+    "real HTTP fault matrix",
+    "per-organization durable synthetic providers"
+  ]
+}

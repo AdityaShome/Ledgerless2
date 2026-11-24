@@ -1,0 +1,5 @@
+policy,legit,false_dedup,false_dedup_rate,replans,missed_dedup,missed_dedup_rate
+coarse,20000,9592,0.4796,5274,0,0.0
+medium_amount,20000,3979,0.1989,7995,0,0.0
+medium_right,20000,0,0.0,9957,0,0.0
+fine,20000,0,0.0,9957,9957,1.0

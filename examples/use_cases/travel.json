@@ -1,0 +1,60 @@
+{
+  "name": "travel",
+  "title": "Travel booking",
+  "initial_guidelines": "Use synthetic data only. Follow the common specification. Never repeat a committed effect. Quarantine unknown outcomes. Publish only opaque references and status summaries.",
+  "specification": {
+    "max_amount": 1000,
+    "require_receipt_verification": true,
+    "allow_compensation": true,
+    "steps": [
+      {
+        "org": "traveller",
+        "action_type": "request_itinerary",
+        "target": "traveller-sandbox",
+        "params": {
+          "trip_id": "trip-demo-001",
+          "date": "2030-01-15",
+          "travellers": 1
+        },
+        "semantic_keys": [
+          "trip_id",
+          "date",
+          "travellers"
+        ],
+        "compensation": "cancel_itinerary"
+      },
+      {
+        "org": "airline",
+        "action_type": "reserve_flight",
+        "target": "airline-sandbox",
+        "params": {
+          "trip_id": "trip-demo-001",
+          "date": "2030-01-15",
+          "travellers": 1
+        },
+        "semantic_keys": [
+          "trip_id",
+          "date",
+          "travellers"
+        ],
+        "compensation": "cancel_flight"
+      },
+      {
+        "org": "hotel",
+        "action_type": "reserve_room",
+        "target": "hotel-sandbox",
+        "params": {
+          "trip_id": "trip-demo-001",
+          "date": "2030-01-15",
+          "travellers": 1
+        },
+        "semantic_keys": [
+          "trip_id",
+          "date",
+          "travellers"
+        ],
+        "compensation": "cancel_room"
+      }
+    ]
+  }
+}

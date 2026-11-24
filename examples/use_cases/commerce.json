@@ -1,0 +1,60 @@
+{
+  "name": "commerce",
+  "title": "Agentic payments and commerce",
+  "initial_guidelines": "Use synthetic data only. Follow the common specification. Never repeat a committed effect. Quarantine unknown outcomes. Publish only opaque references and status summaries.",
+  "specification": {
+    "max_amount": 1000,
+    "require_receipt_verification": true,
+    "allow_compensation": true,
+    "steps": [
+      {
+        "org": "buyer",
+        "action_type": "submit_order",
+        "target": "buyer-sandbox",
+        "params": {
+          "order_id": "order-demo-001",
+          "amount": 49,
+          "currency": "INR"
+        },
+        "semantic_keys": [
+          "order_id",
+          "amount",
+          "currency"
+        ],
+        "compensation": "cancel_order"
+      },
+      {
+        "org": "merchant",
+        "action_type": "accept_order",
+        "target": "merchant-sandbox",
+        "params": {
+          "order_id": "order-demo-001",
+          "amount": 49,
+          "currency": "INR"
+        },
+        "semantic_keys": [
+          "order_id",
+          "amount",
+          "currency"
+        ],
+        "compensation": "cancel_order"
+      },
+      {
+        "org": "payment_processor",
+        "action_type": "charge_payment",
+        "target": "payment_processor-sandbox",
+        "params": {
+          "order_id": "order-demo-001",
+          "amount": 49,
+          "currency": "INR"
+        },
+        "semantic_keys": [
+          "order_id",
+          "amount",
+          "currency"
+        ],
+        "compensation": "refund_payment"
+      }
+    ]
+  }
+}

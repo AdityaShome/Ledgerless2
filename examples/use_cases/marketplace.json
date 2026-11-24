@@ -1,0 +1,60 @@
+{
+  "name": "marketplace",
+  "title": "Enterprise agent marketplace",
+  "initial_guidelines": "Use synthetic data only. Follow the common specification. Never repeat a committed effect. Quarantine unknown outcomes. Publish only opaque references and status summaries.",
+  "specification": {
+    "max_amount": 1000,
+    "require_receipt_verification": true,
+    "allow_compensation": true,
+    "steps": [
+      {
+        "org": "enterprise",
+        "action_type": "request_environment",
+        "target": "enterprise-sandbox",
+        "params": {
+          "deployment_id": "deploy-demo-001",
+          "region": "test-region",
+          "seats": 1
+        },
+        "semantic_keys": [
+          "deployment_id",
+          "region",
+          "seats"
+        ],
+        "compensation": "cancel_request"
+      },
+      {
+        "org": "cloud_vendor",
+        "action_type": "provision_instance",
+        "target": "cloud_vendor-sandbox",
+        "params": {
+          "deployment_id": "deploy-demo-001",
+          "region": "test-region",
+          "seats": 1
+        },
+        "semantic_keys": [
+          "deployment_id",
+          "region",
+          "seats"
+        ],
+        "compensation": "delete_instance"
+      },
+      {
+        "org": "license_vendor",
+        "action_type": "issue_license",
+        "target": "license_vendor-sandbox",
+        "params": {
+          "deployment_id": "deploy-demo-001",
+          "region": "test-region",
+          "seats": 1
+        },
+        "semantic_keys": [
+          "deployment_id",
+          "region",
+          "seats"
+        ],
+        "compensation": "revoke_license"
+      }
+    ]
+  }
+}

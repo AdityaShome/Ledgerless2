@@ -1,0 +1,37 @@
+TLC2 Version 2026.11.19.180144 (rev: bc1b506)
+Warning: Please run the Java VM, which executes TLC with a throughput optimized garbage collector, by passing the "-XX:+UseParallelGC" property.
+(Use the -nowarning option to disable this warning.)
+Running breadth-first search Model-Checking with fp 125 and seed -1326284612282570265 with 2 workers on 9 cores with 1024MB heap and 64MB offheap memory [pid: 58] (Linux 6.18.57 amd64, Debian 21.0.13 64bit, MSBDiskFPSet, DiskStateQueue).
+Parsing file /workspace/scratch/16ae3042948b/Ledgerless_Combined/formal/A2ARecovery_cut.tla
+Parsing file /workspace/scratch/16ae3042948b/Ledgerless_Combined/formal/A2ARecovery.tla
+Parsing file /tmp/tlc-11669647348916698057/_TLCTrace.tla (jar:file:/tmp/combined-tla2tools.jar!/tla2sany/StandardModules/_TLCTrace.tla)
+Parsing file /tmp/tlc-11669647348916698057/Naturals.tla (jar:file:/tmp/combined-tla2tools.jar!/tla2sany/StandardModules/Naturals.tla)
+Parsing file /tmp/tlc-11669647348916698057/FiniteSets.tla (jar:file:/tmp/combined-tla2tools.jar!/tla2sany/StandardModules/FiniteSets.tla)
+Parsing file /tmp/tlc-11669647348916698057/TLC.tla (jar:file:/tmp/combined-tla2tools.jar!/tla2sany/StandardModules/TLC.tla)
+Parsing file /tmp/tlc-11669647348916698057/Sequences.tla (jar:file:/tmp/combined-tla2tools.jar!/tla2sany/StandardModules/Sequences.tla)
+Parsing file /tmp/tlc-11669647348916698057/TLCExt.tla (jar:file:/tmp/combined-tla2tools.jar!/tla2sany/StandardModules/TLCExt.tla)
+Parsing file /tmp/tlc-11669647348916698057/Integers.tla (jar:file:/tmp/combined-tla2tools.jar!/tla2sany/StandardModules/Integers.tla)
+Semantic processing of module Naturals
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module TLC
+Semantic processing of module A2ARecovery
+Semantic processing of module Integers
+Semantic processing of module TLCExt
+Semantic processing of module _TLCTrace
+Semantic processing of module A2ARecovery_cut
+Linting of module A2ARecovery
+Linting of module TLCExt
+Linting of module _TLCTrace
+Linting of module A2ARecovery_cut
+Starting... (2026-11-24 08:35:39)
+Computing initial states...
+Finished computing initial states: 1 distinct state generated at 2026-11-24 08:35:39.
+Model checking completed. No error has been found.
+  Estimates of the probability that TLC did not check all reachable states
+  because two distinct states had the same fingerprint:
+  calculated (optimistic):  val = 2.9E-11
+107917 states generated, 5192 distinct states found, 0 states left on queue.
+The depth of the complete state graph search is 23.
+The average outdegree of the complete state graph is 1 (minimum is 0, the maximum 6 and the 95th percentile is 3).
+Finished in 01s at (2026-11-24 08:35:40)
